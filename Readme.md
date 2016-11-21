@@ -1,7 +1,7 @@
-# Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+﻿# Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Константин Крошкин](https://up.htmlacademy.ru/adaptive/9/user/195097).
-* Наставник: `Неизвестно`.
+* Наставник: Ирина Соколовская, https://htmlacademy.ru/profile/id106311.
 
 ---
 
