@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>PINK Photo</title>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <h1 class="main-header__logo">Pink</h1>
+
+      <nav class="main-nav main-nav--closed">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__items">
+            <li class="main-nav__item"><a>Главная</a></li>
+            <li class="main-nav__item main-nav__item--active"><a href="">Фотографии</a></li>
+            <li class="main-nav__item"><a href="">Конкурс</a></li>
+            <li class="main-nav__item"><a href="">HTML Academy</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="main-header__headline">
+        <h1>Фотографии пользователей</h1>
+      </div>
+    </header>
+
+    <main class="photo-content">
+      <div class="photo-content__headline">
+        <p>Взгляните на фотографии, которые выкладывают пользователи!</p>
+        <p>Видите, как не хватает Ваших?</p>
+      </div>
+
+      <div class="photo-content__items">
+        <div class="photo-content__item">
+          <img src="img/something.jpg" alt="Image Entry">
+
+          <div class="photo-content__item__headline">
+            <p>Анна <span class="item-date">(5 минут назад)</span></p>
+          </div>
+
+          <div class="photo-content__item__text">
+            <p>Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+          </div>
+
+          <div class="photo-content__item__footer">
+            <a class="like-button"><span class="like-image"></span></a>
+            <p>Нравится: 215</p>
+          </div>
+        </div>
+
+        <div class="photo-content__item">
+          <img src="img/something.jpg" alt="Image Entry">
+
+          <div class="photo-content__item__headline">
+            <p>Левон <span class="item-date">(5 часов назад)</span></p>
+          </div>
+
+          <div class="photo-content__item__text">
+            <p>Вчера он на луну летал, сегодня в руки к нам попал.</p>
+          </div>
+
+          <div class="photo-content__item__footer">
+            <a class="like-button"><span class="like-image"></span></a>
+            <p>Нравится: 356</p>
+          </div>
+        </div>
+
+        <div class="photo-content__item">
+          <img src="img/something.jpg" alt="Image Entry">
+
+          <div class="photo-content__item__headline">
+            <p>Антон <span class="item-date">(12 часов назад)</span></p>
+          </div>
+
+          <div class="photo-content__item__text">
+            <p>Соседи будут рады!</p>
+          </div>
+
+          <div class="photo-content__item__footer">
+            <a class="like-button"><span class="like-image"></span></a>
+            <p>Нравится: 666</p>
+          </div>
+        </div>
+
+        <div class="photo-content__item">
+          <img src="img/something.jpg" alt="Image Entry">
+
+          <div class="photo-content__item__headline">
+            <p>Борис <span class="item-date">(20 часов назад)</span></p>
+          </div>
+
+          <div class="photo-content__item__text">
+            <p>Здесь могла быть Ваша цитата о высоком и вечном.</p>
+          </div>
+
+          <div class="photo-content__item__footer">
+            <a class="like-button"><span class="like-image"></span></a>
+            <p>Нравится: 215</p>
+          </div>
+        </div>
+
+        <div class="photo-content__item">
+          <img src="img/something.jpg" alt="Image Entry">
+
+          <div class="photo-content__item__headline">
+            <p>Сергей <span class="item-date">(25 часов назад)</span></p>
+          </div>
+
+          <div class="photo-content__item__text">
+            <p>Самая кубанская в мире!</p>
+          </div>
+
+          <div class="photo-content__item__footer">
+            <a class="like-button"><span class="like-image"></span></a>
+            <p>Нравится: 4</p>
+          </div>
+        </div>
+
+        <div class="photo-content__item">
+          <img src="img/something.jpg" alt="Image Entry">
+
+          <div class="photo-content__item__headline">
+            <p>Максим <span class="item-date">(40 часов назад)</span></p>
+          </div>
+
+          <div class="photo-content__item__text">
+            <p>Где снег-то?</p>
+          </div>
+
+          <div class="photo-content__item__footer">
+            <a class="like-button"><span class="like-image"></span></a>
+            <p>Нравится: 150</p>
+          </div>
+        </div>
+
+        <div class="photo-content__item">
+          <img src="img/something.jpg" alt="Image Entry">
+
+          <div class="photo-content__item__headline">
+            <p>Надежда <span class="item-date">(45 часов назад)</span></p>
+          </div>
+
+          <div class="photo-content__item__text">
+            <p>Всем GM и взаимные лайки!</p>
+          </div>
+
+          <div class="photo-content__item__footer">
+            <a class="like-button"><span class="like-image"></span></a>
+            <p>Нравится: 2560</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="photo-content__upload">
+        <img src="img/something.jpg" alt="Uploaded Image">
+        <!-- Фильтры -->
+
+        <div class="photo-content__upload-link">
+          <a href="#">Запостить</a>
+          <button type="button">Отмена</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="photo-content__footer">
+      <div class="photo-content__footer__logo">
+        <img src="img/something.jpg" alt="Pink Logo">
+      </div>
+
+      <div class="photo-content__footer__social">
+        <div class="social-links">
+          <a class="social-link social-link--vk" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+          <a class="social-link social-link--fb" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+          <a class="social-link social-link--in" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
+        </div>
+      </div>
+
+      <div class="photo-content__footer__produced">
+        <p>Разработано <span class="produced-image"></span></p>
+      </div>
+    </footer>
+  </body>
+</html>
