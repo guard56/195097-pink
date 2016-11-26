@@ -27,20 +27,18 @@
     </header>
 
     <div class="pink-contest">
-      <div class="pink-contest__headline">
-        <p>Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на Вашу бонусную карту!</p>
-      </div>
+      <div class="pink-contest__headline">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на Вашу бонусную карту!</div>
 
       <div class="pink-contest__form">
         <form action="#" method="post">
-          <label for="surname">Фамилия:</label>
-          <input type="text" id="surname" name="surname" placeholder="Укажите фамилию*" required autofocus>
+          <label class="pink-contest__form-label" for="surname">Фамилия:</label>
+          <input class="pink-contest__form-input" type="text" id="surname" name="surname" placeholder="Укажите фамилию*" required autofocus>
 
-          <label for="name">Имя:</label>
-          <input type="text" id="name" name="name" placeholder="Укажите имя*" required>
+          <label class="pink-contest__form-label" for="name">Имя:</label>
+          <input class="pink-contest__form-input" type="text" id="name" name="name" placeholder="Укажите имя*" required>
 
-          <label for="middle-name">Отчество:</label>
-          <input type="text" id="middle-name" name="middle-name" placeholder="Ну, и отчество тоже">
+          <label class="pink-contest__form-label" for="middle-name">Отчество:</label>
+          <input class="pink-contest__form-input" type="text" id="middle-name" name="middle-name" placeholder="Ну, и отчество тоже">
 
           <div class="achievements">
             <div class="achievements__headline">Ваши безбашенные достижения в путешествии:</div>
@@ -55,11 +53,11 @@
             </ul>
           </div>
 
-          <label for="tel">Номер телефона:</label>
-          <input type="tel" id="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="Номер, пожалуйста">
+          <label class="pink-contest__form-label" for="tel">Номер телефона:</label>
+          <input class="pink-contest__form-input" type="tel" id="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="Номер, пожалуйста">
 
-          <label for="email">Адресок почты:</label>
-          <input type="email" id="email" name="email" placeholder="Введите почту*" required>
+          <label class="pink-contest__form-label" for="email">Адресок почты:</label>
+          <input class="pink-contest__form-input" type="email" id="email" name="email" placeholder="Введите почту*" required>
 
           <div class="apps">
             <div class="apps__headline">С каким приложением путешествовали?</div>
@@ -73,24 +71,22 @@
 
           <div class="entry-review">
             <div class="entry-review__headline">Опишите свои эмоции:</label>
-            <textarea placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+            <textarea class="entry-review__text" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
           </div>
 
-          <div class="contest-button">
-            <input type="button" value="Отправить форму">
-          </div>
+          <button class="form-button" type="button">Отправить форму</button>
         </form>
 
         <p><span class="asterisk">*</span> - обязательные поля</p>
       </div>
     </div>
 
-    <footer class="pink-contest__footer">
-      <div class="pink-contest__footer__logo">
+    <footer class="footer">
+      <div class="footer__logo">
         <img src="img/something.jpg" alt="Pink Logo">
       </div>
 
-      <div class="pink-contest__footer__social">
+      <div class="footer__social">
         <div class="social-links">
           <a class="social-link social-link--vk" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
           <a class="social-link social-link--fb" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
@@ -98,7 +94,7 @@
         </div>
       </div>
 
-      <div class="pink-contest__footer__produced">
+      <div class="footer__produced">
         <p>Разработано <span class="produced-image"></span></p>
       </div>
     </footer>

@@ -28,9 +28,9 @@
 
     <main class="main-page-content">
       <div class="app-download">
-        <div class="app-download__link">
-          <a href="#">Скачать приложение</a>
-        </div>
+
+          <button class="download-button" type="button">Скачать приложение</button>
+
 
         <div class="app-download__platforms">
           <img src="">
@@ -51,17 +51,17 @@
 
         <div class="pink-intro__items">
           <div class="pink-intro__item">
-            <b>Поднимает настроение</b>
+            <h2>Поднимает настроение</h2>
             <p>Приложение позволит Вам победить осеннюю хандру и депрессию буквально в несколько кликов</p>
           </div>
 
           <div class="pink-intro__item">
-            <b>Меняет мир вокруг</b>
+            <h2>Меняет мир вокруг</h2>
             <p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
           </div>
 
           <div class="pink-intro__item">
-            <b>Заводит новых друзей</b>
+            <h2>Заводит новых друзей</h2>
             <p>Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
           </div>
         </div>
@@ -73,10 +73,14 @@
 
       <div class="pink-reviews">
         <div class="pink-reviews__items">
-          <div class="pink-reviews__item">
+          <div class="pink-reviews__item slider">
             <h2>Николай Петров</h2>
             <p>&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
           </div>
+
+          <input class="slider__input" type="radio" name="reviews" id="reviews-input-1" checked>
+          <input class="slider__input" type="radio" name="reviews" id="reviews-input-2">
+          <input class="slider__input" type="radio" name="reviews" id="reviews-input-3">
         </div>
       </div>
 
@@ -90,6 +94,10 @@
               <li>Смайлики</li>
               <li>Комментарии</li>
             </ul>
+
+            <input class="slider__input" type="radio" name="reviews" id="reviews-input-1" checked>
+            <input class="slider__input" type="radio" name="reviews" id="reviews-input-2">
+            <input class="slider__input" type="radio" name="reviews" id="reviews-input-3">
           </div>
         </div>
       </div>
@@ -121,6 +129,7 @@
           <div class="contacts__map">
             <img src="img/something.jpg" alt="Map">
           </div>
+        </div>
       </div>
     </footer>
   </body>
