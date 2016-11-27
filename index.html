@@ -2,11 +2,133 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
+    <title>PINK Main</title>
   </head>
   <body>
+    <header class="main-header">
+      <h1 class="main-header__logo">Pink</h1>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
+      <nav class="main-nav main-nav--closed">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__items">
+            <li class="main-nav__item main-nav__item--active"><a>Главная</a></li>
+            <li class="main-nav__item"><a href="">Фотографии</a></li>
+            <li class="main-nav__item"><a href="">Конкурс</a></li>
+            <li class="main-nav__item"><a href="">HTML Academy</a></li>
+          </ul>
+        </div>
+      </nav>
 
+      <div class="main-header__image">
+        <img src="img/something.jpg" alt="Colourful Picture">
+      </div>
+    </header>
+
+
+    <main class="main-page-content">
+      <div class="app-download">
+        <a class="button button--download" href="#">Скачать приложение</a>
+
+        <div class="app-download__platforms">
+          <img src="">
+          <img src="">
+          <img src="">
+        </div>
+
+        <div class="app-download__description">
+          <p>Доступно для iPhone, iPad, Android, Windows Phone, OSX, Windows 8</p>
+        </div>
+      </div>
+
+      <div class="pink-intro">
+        <div class="pink-intro__headline">
+          <p>Устали от серости мегаполиса?</p>
+          <p>Нам есть, что Вам предложить!</p>
+        </div>
+
+        <div class="pink-intro__items">
+          <div class="pink-intro__item">
+            <h2>Поднимает настроение</h2>
+            <p>Приложение позволит Вам победить осеннюю хандру и депрессию буквально в несколько кликов</p>
+          </div>
+
+          <div class="pink-intro__item">
+            <h2>Меняет мир вокруг</h2>
+            <p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+          </div>
+
+          <div class="pink-intro__item">
+            <h2>Заводит новых друзей</h2>
+            <p>Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+          </div>
+        </div>
+
+        <div class="pink-intro__example">
+          <img src="img/something.jpg" alt="Example Image">
+        </div>
+      </div>
+
+      <div class="pink-reviews">
+        <div class="pink-reviews__items">
+          <div class="pink-reviews__item slider">
+            <h2>Николай Петров</h2>
+            <p>&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
+          </div>
+
+          <input class="slider__input" type="radio" name="reviews" id="reviews-input-1" checked>
+          <input class="slider__input" type="radio" name="reviews" id="reviews-input-2">
+          <input class="slider__input" type="radio" name="reviews" id="reviews-input-3">
+        </div>
+      </div>
+
+      <div class="pink-prices">
+        <div class="pink-prices__items">
+          <div class="pink-prices__item">
+            <h3>Стандарт</h3>
+            <p>3,99 USD</p>
+            <ul>
+              <li>Розовый фильтр</li>
+              <li>Смайлики</li>
+              <li>Комментарии</li>
+            </ul>
+
+            <input class="slider__input" type="radio" name="reviews" id="reviews-input-1" checked>
+            <input class="slider__input" type="radio" name="reviews" id="reviews-input-2">
+            <input class="slider__input" type="radio" name="reviews" id="reviews-input-3">
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <div class="main-footer contacts">
+        <div class="contacts__items">
+          <div class="contacts__item-headline">
+            <p>Остались вопросы?</p>
+            <p>Свяжитесь с нами!</p>
+          </div>
+
+          <div class="contacts__item">
+            <b>Звоните</b>
+            <p>+7 (812) 555-66-66</p>
+          </div>
+
+          <div class="contacts__item">
+            <b>Пишите</b>
+            <p>mail@htmlacademy.ru</p>
+          </div>
+
+          <div class="contacts__item">
+            <b>Приезжайте в гости</b>
+            <p>ул. Большая Конюшенная, 19/8</p>
+          </div>
+
+          <div class="contacts__map">
+            <img src="img/something.jpg" alt="Map">
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

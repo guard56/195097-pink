@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>PINK Contest</title>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <h1 class="main-header__logo">Pink</h1>
+
+      <nav class="main-nav main-nav--closed">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__items">
+            <li class="main-nav__item"><a>Главная</a></li>
+            <li class="main-nav__item"><a href="">Фотографии</a></li>
+            <li class="main-nav__item main-nav__item--active"><a href="">Конкурс</a></li>
+            <li class="main-nav__item"><a href="">HTML Academy</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="main-header__headline">
+        <h1>Конкурс на самое безбашенное путешествие с Пинк</h1>
+      </div>
+    </header>
+
+    <div class="pink-contest">
+      <div class="pink-contest__headline">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на Вашу бонусную карту!</div>
+
+      <div class="pink-contest__form">
+        <form action="#" method="post">
+          <label class="pink-contest__form-label" for="surname">Фамилия:</label>
+          <input class="pink-contest__form-input" type="text" id="surname" name="surname" placeholder="Укажите фамилию*" required autofocus>
+
+          <label class="pink-contest__form-label" for="name">Имя:</label>
+          <input class="pink-contest__form-input" type="text" id="name" name="name" placeholder="Укажите имя*" required>
+
+          <label class="pink-contest__form-label" for="middle-name">Отчество:</label>
+          <input class="pink-contest__form-input" type="text" id="middle-name" name="middle-name" placeholder="Ну, и отчество тоже">
+
+          <div class="achievements">
+            <div class="achievements__headline">Ваши безбашенные достижения в путешествии:</div>
+
+            <ul class="achievements__list">
+              <li><label class="achievements__label"><input id="achievement-1" type="checkbox" name="item-1" value="selfie">Сделал селфи с акулой</label></li>
+              <li><label class="achievements__label"><input id="achievement-2" type="checkbox" name="item-2" value="beach">Обгорел на пляже</label></li>
+              <li><label class="achievements__label"><input id="achievement-1" type="checkbox" name="item-3" value="norris">Видел Чака Норриса</label></li>
+              <li><label class="achievements__label"><input id="achievement-1" type="checkbox" name="item-4" value="souvenirs">Накупил сувениров</label></li>
+              <li><label class="achievements__label"><input id="achievement-1" type="checkbox" name="item-5" value="tower">Удержал башню</label></li>
+              <li><label class="achievements__label"><input id="achievement-1" type="checkbox" name="item-6" value="hotel">Разгромил отель</label></li>
+            </ul>
+          </div>
+
+          <label class="pink-contest__form-label" for="tel">Номер телефона:</label>
+          <input class="pink-contest__form-input" type="tel" id="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="Номер, пожалуйста">
+
+          <label class="pink-contest__form-label" for="email">Адресок почты:</label>
+          <input class="pink-contest__form-input" type="email" id="email" name="email" placeholder="Введите почту*" required>
+
+          <div class="apps">
+            <div class="apps__headline">С каким приложением путешествовали?</div>
+
+            <ul class="apps__list">
+              <li><label class="apps__label"><input id="apps-1" type="radio" name="apps" value="iOS">Pink для iOS</label></li>
+              <li><label class="apps__label"><input id="apps-2" type="radio" name="apps" value="Android">Pink для Android</label></li>
+              <li><label class="apps__label"><input id="apps-3" type="radio" name="apps" value="Windows Phone">Windows Phone</label></li>
+            </ul>
+          </div>
+
+          <div class="entry-review">
+            <div class="entry-review__headline">Опишите свои эмоции:</label>
+            <textarea class="entry-review__text" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+          </div>
+
+          <button class="button button--send" type="button">Отправить форму</button>
+        </form>
+
+        <p><span class="asterisk">*</span> - обязательные поля</p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__logo">
+        <img src="img/something.jpg" alt="Pink Logo">
+      </div>
+
+      <div class="footer__social">
+        <div class="social-links">
+          <a class="social-link social-link--vk" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+          <a class="social-link social-link--fb" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+          <a class="social-link social-link--in" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
+        </div>
+      </div>
+
+      <div class="footer__produced">
+        <p>Разработано <span class="produced-image"></span></p>
+      </div>
+    </footer>
+  </body>
+</html>
