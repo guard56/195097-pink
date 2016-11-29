@@ -1,0 +1,26 @@
+.main-header {
+  background: url("../img/bg-back-mobile@1x.jpg") no-repeat 50%;
+  background-size: cover;
+  border: 2px solid red;
+  width: 320px;
+}
+
+.main-header__logo {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.main-header__headline {
+  width: 230px;
+  padding-bottom: 53px;
+  font-family: OpenSansLight;
+  font-size: 24px;
+  color: #ffffff;
+
+  &-photos {
+    padding-bottom: 88px;
+  }
+}

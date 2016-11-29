@@ -1,0 +1,19 @@
+.apps__headline {
+  padding-bottom: 50px;
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 18px;
+  color: #d22856;
+}
+
+.apps__list {
+  list-style-type: none;
+}
+
+.apps__list li {
+  padding-bottom: 60px;
+}
+
+.apps__list li:last-child {
+  padding-bottom: 95px;
+}

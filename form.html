@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>PINK Contest</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
@@ -13,32 +14,30 @@
         <button class="main-nav__toggle" type="button">Открыть меню</button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__items">
-            <li class="main-nav__item"><a>Главная</a></li>
+            <li class="main-nav__item"><a href="">Главная</a></li>
             <li class="main-nav__item"><a href="">Фотографии</a></li>
-            <li class="main-nav__item main-nav__item--active"><a href="">Конкурс</a></li>
+            <li class="main-nav__item main-nav__item--active"><a>Конкурс</a></li>
             <li class="main-nav__item"><a href="">HTML Academy</a></li>
           </ul>
         </div>
       </nav>
 
-      <div class="main-header__headline">
-        <h1>Конкурс на самое безбашенное путешествие с Пинк</h1>
-      </div>
+      <div class="main-header__headline">Конкурс на самое безбашенное путешествие с Пинк</div>
     </header>
 
-    <div class="pink-contest">
+    <main class="pink-contest">
       <div class="pink-contest__headline">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на Вашу бонусную карту!</div>
 
       <div class="pink-contest__form">
         <form action="#" method="post">
-          <label class="pink-contest__form-label" for="surname">Фамилия:</label>
-          <input class="pink-contest__form-input" type="text" id="surname" name="surname" placeholder="Укажите фамилию*" required autofocus>
+          <label class="pink-contest__form-label" for="surname">Фамилия:</label><br>
+          <input class="pink-contest__form-input" type="text" id="surname" name="surname" placeholder="Укажите фамилию*" required autofocus><br>
 
-          <label class="pink-contest__form-label" for="name">Имя:</label>
-          <input class="pink-contest__form-input" type="text" id="name" name="name" placeholder="Укажите имя*" required>
+          <label class="pink-contest__form-label" for="name">Имя:</label><br>
+          <input class="pink-contest__form-input" type="text" id="name" name="name" placeholder="Укажите имя*" required><br>
 
-          <label class="pink-contest__form-label" for="middle-name">Отчество:</label>
-          <input class="pink-contest__form-input" type="text" id="middle-name" name="middle-name" placeholder="Ну, и отчество тоже">
+          <label class="pink-contest__form-label" for="middle-name">Отчество:</label><br>
+          <input class="pink-contest__form-input" type="text" id="middle-name" name="middle-name" placeholder="Ну, и отчество тоже"><br>
 
           <div class="achievements">
             <div class="achievements__headline">Ваши безбашенные достижения в путешествии:</div>
@@ -53,11 +52,11 @@
             </ul>
           </div>
 
-          <label class="pink-contest__form-label" for="tel">Номер телефона:</label>
-          <input class="pink-contest__form-input" type="tel" id="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="Номер, пожалуйста">
+          <label class="pink-contest__form-label" for="tel">Номер телефона:</label><br>
+          <input class="pink-contest__form-input" type="tel" id="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="Номер, пожалуйста"><br>
 
-          <label class="pink-contest__form-label" for="email">Адресок почты:</label>
-          <input class="pink-contest__form-input" type="email" id="email" name="email" placeholder="Введите почту*" required>
+          <label class="pink-contest__form-label" for="email">Адресок почты:</label><br>
+          <input class="pink-contest__form-input" type="email" id="email" name="email" placeholder="Введите почту*" required><br>
 
           <div class="apps">
             <div class="apps__headline">С каким приложением путешествовали?</div>
@@ -71,7 +70,7 @@
 
           <div class="entry-review">
             <div class="entry-review__headline">Опишите свои эмоции:</label>
-            <textarea class="entry-review__text" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+            <textarea class="entry-review__text" rows="6" cols=32 placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
           </div>
 
           <button class="button button--send" type="button">Отправить форму</button>
@@ -79,11 +78,11 @@
 
         <p><span class="asterisk">*</span> - обязательные поля</p>
       </div>
-    </div>
+    </main>
 
     <footer class="footer">
       <div class="footer__logo">
-        <img src="img/something.jpg" alt="Pink Logo">
+        <img src="img/logo-pink-blue-mobile.svg" alt="Pink Logo">
       </div>
 
       <div class="footer__social">
@@ -95,7 +94,7 @@
       </div>
 
       <div class="footer__produced">
-        <p>Разработано <span class="produced-image"></span></p>
+        <p>Разработано <span class="produced-image"><img src="img/logo-htmlacademy.svg"></span></p>
       </div>
     </footer>
   </body>

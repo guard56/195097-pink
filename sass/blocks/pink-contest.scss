@@ -1,0 +1,26 @@
+.pink-contest {
+  width: 320px;
+  padding-bottom: 75px;
+  border: 2px solid red;
+}
+
+.pink-contest__headline {
+  width: 275px;
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 30px;
+  color: #283645;
+}
+
+.pink-contest__form-label {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-family: OpenSansLight;
+  font-size: 14px;
+  line-height: 30px;
+  color: #d22856;
+}
+
+.pink-contest__form-input {
+  margin-bottom: 27px;
+}
