@@ -9,3 +9,9 @@
   margin-top: 20px;
   margin-bottom: 48px;
 }
+
+@media screen and (min-width: 700px) {
+  .entry-review {
+    text-align: center;
+  }
+}

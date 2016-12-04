@@ -1,5 +1,4 @@
 .footer {
-  width: 320px;
   border: 2px solid red;
 }
 
@@ -9,4 +8,14 @@
 
 .footer__produced {
   padding-bottom: 40px;
+}
+
+@media screen and (min-width: 700px) {
+  .footer__logo {
+    float: left;
+  }
+
+  .footer__social {
+    float: left;
+  }
 }
