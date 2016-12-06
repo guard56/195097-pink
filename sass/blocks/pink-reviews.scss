@@ -1,5 +1,4 @@
 .pink-reviews {
-  width: 320px;
   padding-bottom: 133px;
   border: 2px solid red;
 }
@@ -20,4 +19,50 @@
   font-size: 14px;
   line-height: 24px;
   color: #283645;
+}
+
+@media screen and (min-width: 700px) {
+  .pink-reviews {
+    text-align: center;
+  }
+
+  .pink-reviews__item {
+    text-align: center;
+  }
+
+  .pink-reviews__item p {
+    width: 620px;
+  }
+
+  .pink-reviews__item h2 {
+    position: absolute;
+    left: 36%;
+    top: 35%;
+  }
+
+  .slider-input {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .pink-reviews__item {
+    text-align: center;
+  }
+
+  .pink-reviews__item p {
+    width: 685px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .pink-reviews__item h2 {
+    position: absolute;
+    left: 41%;
+    top: 35%;
+  }
+
+  .slider-input {
+    margin-top: 50px;
+  }
 }

@@ -1,5 +1,4 @@
 .photo-content {
-  width: 320px;
   padding-bottom: 80px;
   border: 2px solid red;
 }
@@ -44,4 +43,16 @@
   font-size: 12px;
   line-height: 24px;
   color: #d22856;
+}
+
+@media screen and (min-width: 700px) {
+  .photo-content {
+    text-align: center;
+  }
+
+  .photo-item {
+    float: left;
+    height: 350px;
+    width: 310px;
+  }
 }

@@ -17,3 +17,13 @@
 .apps__list-item:last-child {
   padding-bottom: 95px;
 }
+
+@media screen and (min-width: 700px) {
+  .apps {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  float: left;
+}

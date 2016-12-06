@@ -7,29 +7,41 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="main-header">
-      <h1 class="main-header__logo">Pink</h1>
+    <div class="header-wrapper">
+      <header class="main-header container">
+        <h1 class="main-header__logo">Pink</h1>
 
-      <nav class="main-nav main-nav--closed">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__items">
-            <li class="main-nav__item main-nav__item--active"><a>Главная</a></li>
-            <li class="main-nav__item"><a href="">Фотографии</a></li>
-            <li class="main-nav__item"><a href="">Конкурс</a></li>
-            <li class="main-nav__item"><a href="">HTML Academy</a></li>
-          </ul>
+        <nav class="main-nav main-nav--closed">
+          <button class="main-nav__toggle" type="button">Открыть меню</button>
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__items">
+              <li class="main-nav__item main-nav__item--active"><a>Главная</a></li>
+              <li class="main-nav__item"><a href="">Фотографии</a></li>
+              <li class="main-nav__item"><a href="">Конкурс</a></li>
+              <li class="main-nav__item"><a href="">HTML Academy</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="main-header__image">
+          <img src="img/iphone-hand-mobile@1x.png" alt="Colourful Picture">
         </div>
-      </nav>
 
-      <div class="main-header__image">
-        <img src="img/iphone-hand-mobile@1x.png" alt="Colourful Picture">
-      </div>
-    </header>
+        <div class="main-header__image-tablet">
+          <img src="img/iphone-hand-tablet@1x.png" alt="Colourful Picture">
+        </div>
+
+        <div class="main-header__image-desktop">
+          <img src="img/iphone-hand-desktop@1x.png" alt="Colourful Picture">
+        </div>
+      </header>
+    </div>
 
 
-    <main class="main-page-content">
+    <main class="main-page-content container">
       <div class="app-download">
+        <div class="motto">Взгляните на жизнь иначе</div>
+
         <a class="button button--download" href="#">Скачать приложение</a>
 
         <div class="app-download__platforms">
@@ -43,10 +55,20 @@
         </div>
       </div>
 
-      <div class="pink-intro">
+      <div class="pink-intro clearfix">
         <div class="pink-intro__headline">
           <p>Устали от серости мегаполиса?</p>
           <p>Нам есть, что Вам предложить!</p>
+        </div>
+
+        <div class="pink-intro__image-tablet">
+          <img src="img/iphone-screen-tablet@1x.png">
+        </div>
+
+        <div class="pink-intro__image-desktop">
+          <img src="img/iphone-screen-desktop@1x.png">
+          <img src="img/iphone-screen-desktop@2x.png">
+          <img src="img/iphone-screen-desktop@3x.png">
         </div>
 
         <div class="pink-intro__items">
@@ -69,9 +91,21 @@
         <div class="pink-intro__example">
           <img src="img/iphone-screen-mobile@1x.png" alt="Example Image">
         </div>
+
+        <div class="pink-intro__effect-tablet">
+          <div class="pink-intro__effect-tablet-image">
+            <img width="240" height="280" src="img/something.jpg">
+          </div>
+
+          <div class="pink-intro__effect-tablet-text">
+            <h2>Эффект на 24 часа!</h2>
+            <p>Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
+            <a href="#">Узнать больше об исследовании</a>
+          </div>
+        </div>
       </div>
 
-      <div class="pink-reviews">
+      <div class="pink-reviews container">
         <div class="pink-reviews__items">
           <div class="pink-reviews__item slider">
             <h2>Николай Петров</h2>
@@ -84,15 +118,54 @@
         </div>
       </div>
 
-      <div class="pink-prices">
+      <div class="pink-prices container clearfix">
         <div class="pink-prices__items">
           <div class="pink-prices__item">
-            <div class="pink-intro__item-headline">
+            <div class="pink-prices__item-headline">
               <h2>Стандарт</h2>
               <p>3,99 USD</p>
             </div>
 
-            <div class="pink-intro__item-list">
+            <div class="pink-prices__item-list">
+              <ul>
+                <li>Розовый фильтр</li>
+                <li>Смайлики</li>
+                <li>Комментарии</li>
+              </ul>
+            </div>
+
+            <input class="slider__input" type="radio" name="reviews" id="reviews-input-1" checked>
+            <input class="slider__input" type="radio" name="reviews" id="reviews-input-2">
+            <input class="slider__input" type="radio" name="reviews" id="reviews-input-3">
+          </div>
+
+          <div class="pink-prices__item">
+            <div class="pink-prices__item-headline">
+              <h2>Стандарт</h2>
+              <p>3,99 USD</p>
+            </div>
+
+            <div class="pink-prices__item-list">
+              <ul>
+                <li>Розовый фильтр</li>
+                <li>Смайлики</li>
+                <li>Комментарии</li>
+              </ul>
+            </div>
+
+            <input class="slider__input" type="radio" name="reviews" id="reviews-input-1" checked>
+            <input class="slider__input" type="radio" name="reviews" id="reviews-input-2">
+            <input class="slider__input" type="radio" name="reviews" id="reviews-input-3">
+          </div>
+
+
+          <div class="pink-prices__item">
+            <div class="pink-prices__item-headline">
+              <h2>Стандарт</h2>
+              <p>3,99 USD</p>
+            </div>
+
+            <div class="pink-prices__item-list">
               <ul>
                 <li>Розовый фильтр</li>
                 <li>Смайлики</li>
@@ -108,7 +181,7 @@
       </div>
     </main>
 
-    <footer class="main-footer">
+    <footer class="main-footer container">
       <div class="main-footer contacts">
         <div class="contacts__items">
           <div class="contacts__item-headline">
